@@ -1,0 +1,24 @@
+GROUP MEMBERS: ACQUAH YAW, BLAKE BOTHMER, CEPHAS OMONO ASAMOAH
+PROJECT: DYNAMIC TIC TAC TOE
+
+Our project aims to reimagine the classic game of Tic-Tac-Toe in a more dynamic, scalable, and competitive way. The current version focuses on achieving three consecutive characters (in any direction) on a flexible board layout. The game pits a human player against an "unbeatable AI" designed using the Minimax algorithm with a search depth of 9, making it nearly impossible for a human to win. This project reflects our vision to combine strategic gameplay with AI decision-making, while laying the groundwork for more interactive features in the future.
+
+How to Play
+-The game is played on a 3x3 grid.
+-The player uses 'X', and the AI uses 'O'.
+-Players take turns placing their symbols on the board by inputting the desired row and column (e.g., 1,2).
+-The first to get three of their marks in a row, column, or diagonal wins.
+-If the board fills up with no winner, the game ends in a draw.
+-A scoreboard tracks wins across multiple rounds:
+-A win earns 3 points,
+-A draw gives 1 point to each player.
+
+Current Progress
+So far, we have:
+-Built a fully functioning 3x3 Tic-Tac-Toe board.
+-Implemented robust input handling and visual board updates.
+-Developed a powerful AI opponent using the Minimax algorithm with full-depth lookahead, making the AI extremely hard to beat.
+-Integrated a scoring system that tracks player and AI performance across games.
+
+What’s Next
+Our next step is to integrate graphical elements into the game to enhance user interaction and move beyond the terminal-based interface. This may include developing a GUI with Python libraries such as tkinter or pygame, which would allow for drag-and-drop moves, better visuals, and an overall more engaging experience.
